@@ -58,6 +58,8 @@ Updating firmware...............................................................
 
 ```
 
+## Manual
+A really helpful [user manual](/RD60xx%20Custom%20Firmware%20Reference.pdf) was created by Sunkmail (Scott Mitten) with contributing authors Dougg (Doug G.) and bateau020.
 
 
 ## Credits and support
