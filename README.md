@@ -59,7 +59,7 @@ Updating firmware...............................................................
 ```
 
 ## Manual
-A really helpful [user manual](/RD60xx%20Custom%20Firmware%20Reference.pdf) was created by [Sunkmail](https://github.com/sunkmail) with contributing authors Dougg (Doug G.) and bateau020.
+A really helpful [user manual](/RD60xx%20Custom%20Firmware%20Reference.pdf) was created by [Sunkmail](https://github.com/sunkmail) with contributing authors Dougg (Doug G.) and bateau020. [EEVblog thread](https://www.eevblog.com/forum/testgear/custom-firmware-reference-document-for-riden-rd60xx-power-supplies/)
 
 
 ## Credits and support
