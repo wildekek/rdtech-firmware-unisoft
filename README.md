@@ -28,7 +28,7 @@ $ ls /dev/tty.*
 /dev/tty.Bluetooth-Incoming-Port  /dev/tty.wlan-debug
 ```
 
-Then connect your machine to the Riden via micro-usb and list the ports again
+Then connect your machine to the Riden via micro-usb, turn it on, and list the ports again
 
 ```bash
 $ ls /dev/tty.*
@@ -44,7 +44,7 @@ I recommend you use Timo Kokkonen's [riden-flashtool](https://github.com/tjko/ri
 $ git clone git@github.com:tjko/riden-flashtool.git
 $ cd riden-flashtool
 $ pip3 install pyserial
-$ ./flash-rd.py /dev/tty.usbserial-110 ../riden-firmware-unisoft/FIRMWARES/RD6006/RD60062_V1.38.1h.bin
+$ ./flash-rd.py /dev/tty.usbserial-110 ../riden-firmware-unisoft/RD6006/RD60062_V1.41.1k.bin
 Serial port: /dev/tty.usbserial-110 (115200bps)
 Firmware size: 201472 bytes
 Check if device is in bootloader mode...No
