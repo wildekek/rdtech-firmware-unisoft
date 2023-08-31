@@ -1,6 +1,6 @@
-# UniSoft Riden Firmware Mirror
+# UniSoft RDtech Firmware Mirror
 
-This repo is a mirror of alternative firmware created by [UniSoft](https://www.eevblog.com/forum/profile/?u=682208) for the Riden family of power supplies by [RD Tech](https://rdtech.aliexpress.com/store/923042).
+This repo is a mirror of alternative firmware created by [UniSoft](https://www.eevblog.com/forum/profile/?u=682208) for the RD family of power supplies by [RD Tech](https://rdtech.aliexpress.com/store/923042).
 
 
 ## Installation instructions
@@ -8,7 +8,7 @@ This repo is a mirror of alternative firmware created by [UniSoft](https://www.e
 ### Download this firmware:
 
 ```bash
-git clone git@github.com:wildekek/riden-firmware-unisoft.git
+git clone git@github.com:wildekek/rdtech-firmware-unisoft.git
 ```
 
 ### Preparing your power supply:
@@ -28,14 +28,14 @@ $ ls /dev/tty.*
 /dev/tty.Bluetooth-Incoming-Port  /dev/tty.wlan-debug
 ```
 
-Then connect your machine to the Riden via micro-usb, turn it on, and list the ports again
+Then connect your PC to the power supply via micro-usb, turn it on, and list the ports again
 
 ```bash
 $ ls /dev/tty.*
 /dev/tty.Bluetooth-Incoming-Port /dev/tty.usbserial-110 /dev/tty.wlan-debug
 ```
 
-In my case the Riden is connected to **/dev/tty.usbserial-110**, remember this when flashing.
+In my case it's connected to **/dev/tty.usbserial-110**, remember this when flashing.
 
 ### Flash the firmware
 I recommend you use Timo Kokkonen's [riden-flashtool](https://github.com/tjko/riden-flashtool). **Make sure to adapt the command to reflect your serial port and device model**:
