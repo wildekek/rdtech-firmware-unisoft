@@ -2,6 +2,21 @@
 
 This repo is a mirror of alternative firmware created by [UniSoft](https://www.eevblog.com/forum/profile/?u=682208) for the RD family of power supplies by [RD Tech](https://rdtech.aliexpress.com/store/923042).
 
+# What RD60xx power supplies are supported
+
+- RD6006  model: 60062
+- RD6006P model: 60065
+- RD6012  model: 60121
+- RD6018  model: 60181
+
+NOT compatible with Unisoft's custom firmware:
+
+- RD6006  model: 60061 (china only)
+- RD6012P model: 60125
+- RD6012H model: 60126
+- RD6018P model: 60185
+- RD6024  model: 60241
+- Rd6030  model: 60301
 
 ## Installation instructions
 
