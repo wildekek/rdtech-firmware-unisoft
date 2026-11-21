@@ -1,7 +1,23 @@
 # UniSoft RDtech Firmware Mirror
 
-This repo is a mirror of alternative firmware created by [UniSoft](https://www.eevblog.com/forum/profile/?u=682208) for the RD family of power supplies by [RD Tech](https://rdtech.aliexpress.com/store/923042).
+This repo is a mirror of alternative firmware created by [UniSoft](https://www.eevblog.com/forum/profile/?u=682208) for the RD family of power supplies by [RD Tech](https://rdtech.en.alibaba.com/).
 
+# What RD60xx power supplies are supported
+
+- RD6006  model: 60062
+- RD6006P model: 60065
+- RD6012  model: 60121
+- RD6018  model: 60181
+
+## NOT compatible with Unisoft's custom firmware
+
+- RD6006  model: 60061 (china only)
+- RD6012P model: 60125
+- RD6012H model: 60126
+- RD6018P model: 60185
+- RD6024  model: 60241
+- RD6030  model: 60301
+- any other power supplies from Riden, like the RK or DPS/DPH or DP series 
 
 ## Installation instructions
 
@@ -61,6 +77,11 @@ Updating firmware...............................................................
 ## Manual
 A really helpful [user manual](/RD60xx%20Custom%20Firmware%20Reference.pdf) was created by [Sunkmail](https://github.com/sunkmail) with contributing authors Dougg (Doug G.) and bateau020. [EEVblog thread](https://www.eevblog.com/forum/testgear/custom-firmware-reference-document-for-riden-rd60xx-power-supplies/)
 
+## WiFi dongle
+
+If you want to improve the WiFi dongle, take a look here: [riden-dongle](https://github.com/morgendagen/riden-dongle)
+
+This WiFi dongle firmware can work with both RDTech's firmware and Unisoft's custom firmware. 
 
 ## Credits and support
 The repo merely serves to easily find the latest version of the firmware and documentation. All credits go to UniSoft for developing and maintaining the software. All firmware issue should be discussed in the relevant [EEVblog thread](https://www.eevblog.com/forum/testgear/ruideng-riden-rd6006-dc-power-supply/msg4302538/#msg4302538).
